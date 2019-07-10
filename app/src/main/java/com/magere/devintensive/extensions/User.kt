@@ -1,8 +1,8 @@
-package com.magere.dev_intensive_2019.extensions
+package com.magere.devintensive.extensions
 
-import com.magere.dev_intensive_2019.models.UserView
-import com.magere.dev_intensive_2019.models.User
-import com.magere.dev_intensive_2019.utils.Utils
+import com.magere.devintensive.models.UserView
+import com.magere.devintensive.models.User
+import com.magere.devintensive.utils.Utils
 
 fun User.toUserView(): UserView {
 

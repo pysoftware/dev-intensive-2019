@@ -1,4 +1,4 @@
-package com.magere.dev_intensive_2019.activities
+package com.magere.devintensive.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

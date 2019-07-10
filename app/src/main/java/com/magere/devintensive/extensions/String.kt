@@ -1,4 +1,4 @@
-package com.magere.dev_intensive_2019.extensions
+package com.magere.devintensive.extensions
 
 fun String.stripHtml(): String {
    return this.replace(Regex("[&<.*>'\"/]"), "")

@@ -1,6 +1,6 @@
-package com.magere.dev_intensive_2019.models
+package com.magere.devintensive.models
 
-import com.magere.dev_intensive_2019.utils.Utils
+import com.magere.devintensive.utils.Utils
 import java.util.*
 
 data class User(

@@ -1,4 +1,4 @@
-package com.magere.dev_intensive_2019.models
+package com.magere.devintensive.models
 
 import com.magere.dev_intensive.models.Chat
 import java.util.*

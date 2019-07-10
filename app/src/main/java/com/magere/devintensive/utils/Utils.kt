@@ -1,4 +1,4 @@
-package com.magere.dev_intensive_2019.utils
+package com.magere.devintensive.utils
 
 object Utils {
 

@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.magere.dev_intensive_2019"
+        applicationId "ru.skillbranch.devintensive"
         minSdkVersion 22
         targetSdkVersion 29
         versionCode 1

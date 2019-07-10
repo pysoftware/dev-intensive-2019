@@ -1,7 +1,7 @@
 package com.magere.dev_intensive.models
 
-import com.magere.dev_intensive_2019.models.BaseMessage
-import com.magere.dev_intensive_2019.models.User
+import com.magere.devintensive.models.BaseMessage
+import com.magere.devintensive.models.User
 
 class Chat(
     val id: String,

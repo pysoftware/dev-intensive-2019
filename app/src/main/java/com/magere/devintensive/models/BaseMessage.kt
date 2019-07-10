@@ -1,4 +1,4 @@
-package com.magere.dev_intensive_2019.models
+package com.magere.devintensive.models
 
 import com.magere.dev_intensive.models.Chat
 import com.magere.dev_intensive.models.ImageMessage
@@ -27,7 +27,14 @@ abstract class BaseMessage(
             lastId++
             return when (type) {
                 "image" -> ImageMessage("$lastId", from, chat, date = date, image = payload as String, isIncoming = isIncoming)
-                else -> TextMessage("$lastId", from, chat, date = date, text = payload as String, isIncoming = isIncoming)
+                else -> TextMessage(
+                    "$lastId",
+                    from,
+                    chat,
+                    date = date,
+                    text = payload as String,
+                    isIncoming = isIncoming
+                )
             }
         }
     }

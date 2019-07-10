@@ -1,4 +1,4 @@
-package com.magere.dev_intensive_2019.models
+package com.magere.devintensive.models
 
 import android.provider.ContactsContract
 
